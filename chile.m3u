@@ -1,4 +1,10 @@
 #EXTM3U
+
+#EXTINF:0 group-title=”CHILE”, Canal 13 Desktop
+http://13.live.cdn.cl/13hddesktop/13hd-900.m3u8
+#EXTINF:0 group-title=”CHILE”, Canal 13 HD Desktop
+http://13.live.cdn.cl/13hddesktop/13hd-desktop.m3u8
+
 #EXTINF:-1,TELECANAL SANTIAGO CHILE
 
 http://movilstream.digitalproserver.com/tcsc/tcscvivo/livestream2/playlist.m3u8
@@ -43,6 +49,8 @@ rtsp://megatandas.ztreaming.com:80/megatandas/stream01megatandas04032013.sdp
 rtmp://$OPT:rtmp-raw=rtmp://edge2.video.vaughnsoft.net:443/live?30dabc4871922a1314192e925ab7961d playpath=live_chilenito_teve swfUrl=http://vaughnlive.tv/800021294/swf/VaughnSoftPlayer.swf live=1 pageUrl=http://vaughnlive.tv/embed/video/chilenito_teve token=30dabc4871922a1314192e925ab7961d
 #EXTINF:-1,CHILEVISION SANTIAGO CHILE
 rtmp://$OPT:rtmp-raw=rtmp://chv.live.ztreaming.com:80/chvapp2/ playpath=streamchv swfUrl=http://online.chilevision.cl/swf/flowplayer-3.2.7.swf live=1 pageUrl=http://www.chilevision.cl/home/senal-online.html
+
+
 #EXTINF:-1,CANAL 13 SANTIAGO CHILE
 
 http://cluster.13movil.ztreaming.com/13tv2/stream1grpz13t29102012.sdp/playlist.m3u8
